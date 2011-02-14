@@ -169,13 +169,18 @@ p,fieldset,table {
 /* --- CLEAR FIX --- */
 
 .clearfix:after {
-    content: ".";
-    display:block;
-    height:0;
-    clear:both;
-    visibility:hidden;}
-.clearfix {display:inline-block;}
-/* Hides from IE-mac \*/
-* html .clearfix { height:1%;}
-.clearfix {display:block;}
-/* End hide from IE-mac */
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* html .clearfix {
+    zoom: 1; /* IE6 */
+}
+
+*:first-child+html .clearfix {
+    zoom: 1; /* IE7 */
+}
