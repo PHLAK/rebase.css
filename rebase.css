@@ -154,12 +154,12 @@ p,fieldset,table {
     display: none;
 }
 
-.left {
+.floatLeft {
     float: left;
     width: auto;
 }
 
-.right {
+.floatRight {
     float: right;
     width: auto;
 }
