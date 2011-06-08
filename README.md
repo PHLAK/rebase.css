@@ -11,12 +11,14 @@ of your site before any other stylsheet includes.
 
 **Example:**
 
-    <head>
-        <title>Site Title</title>
-        
-        <link rel="stylesheet" type="text/css" href="/css/rebase-min.css" />
-        <link rel="stylesheet" type="text/css" href="/css/style.css" />
-    </head>
+```html
+<head>
+    <title>Site Title</title>
+    
+    <link rel="stylesheet" type="text/css" href="/css/rebase-min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+```
 
 -----
 
