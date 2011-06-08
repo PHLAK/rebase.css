@@ -6,8 +6,8 @@ A combination of YUI's reset.css, base.css and my own CSS rules.
 Usage
 -----
 
-To use rebase.css just include it in between the <head> tags of
-your site before any other stylsheet includes.
+To use rebase.css just include it in between the `<head>` tags
+of your site before any other stylsheet includes.
 
 **Example:**
 
