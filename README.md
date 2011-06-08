@@ -3,6 +3,23 @@ rebase.css
 
 A combination of YUI's reset.css, base.css and my own CSS rules.
 
+Usage
+-----
+
+To use rebase.css just include it in between the <head> tags of
+your site before any other stylsheet includes.
+
+**Example:**
+
+    <head>
+        <title>Site Title</title>
+        
+        <link rel="stylesheet" type="text/css" href="/css/rebase-min.css" />
+        <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    </head>
+
+-----
+
 **Copyright (c) 2011 Chris Kankewicz <Chris@ChrisKankiewicz.com>**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
