@@ -147,7 +147,7 @@ p,fieldset,table {
 }
 
 /* -------------------------------------------------------------------------- */
-/* -----| MISCELLANEOUS |----------------------------------------------------- */
+/* -----| MISCELLANEOUS |---------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
 
 .hidden {
@@ -162,6 +162,16 @@ p,fieldset,table {
 .floatRight {
     float: right;
     width: auto;
+}
+
+/* ---NESTED LISTS FIX --- */
+
+ul ol li {
+    list-style: decimal outside;    
+}
+
+ol ul li {
+    list-style: disc outside;
 }
 
 /* --- CLEAR FIX --- */

@@ -33,7 +33,7 @@ and extract the contents.  Next, navigate to the `build` directory within the
 extracted folder and run the following to compress rebase.css:
  
 ```bash
-java -jar yuicompressor-2.4.6.jar -v -o /path/to/rebase-min.css /path/to/rebase.css
+java -jar yuicompressor-2.4.6.jar -o /path/to/rebase-min.css /path/to/rebase.css
 ```
 
 **NOTE:** You will need the [Java JDK](http://java.com/en/download/index.jsp) or
