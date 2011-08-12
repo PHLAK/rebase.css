@@ -20,6 +20,27 @@ of your site before any other stylsheet includes.
 </head>
 ```
 
+
+Modifying
+---------
+
+When modifying rebase.css it is recommended you make changes to the uncompressed
+file first, then recompressing it after your changes are made and using the
+compressed version on your web page.
+
+## Compressing
+
+First, download [YUI Compressor](http://yuilibrary.com/downloads/#yuicompressor)
+and extract the contents.  Next, navigate to the `build` directory within the
+extracted folder and run the following to compress rebase.css:
+ 
+```bash
+java -jar yuicompressor-2.4.6.jar -v -o /path/to/rebase-min.css /path/to/rebase.css
+```
+
+**NOTE:** You will need the [Java JDK](http://java.com/en/download/index.jsp) or
+[OpenJDK](http://openjdk.java.net/) to run the YUI Compressor.
+
 -----
 
 **Copyright (c) 2011 Chris Kankewicz <Chris@ChrisKankiewicz.com>**
