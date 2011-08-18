@@ -28,7 +28,7 @@ When modifying rebase.css it is recommended you make changes to the uncompressed
 file first, then recompressing it after your changes are made and using the
 compressed version on your web page.
 
-First, download [YUI Compressor](http://yuilibrary.com/downloads/#yuicompressor)
+First, download [YUI Compressor](http://yuilibrary.com/download/yuicompressor/)
 and extract the contents.  Next, navigate to the `build` directory within the
 extracted folder and run the following to compress rebase.css:
  
