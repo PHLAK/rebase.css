@@ -1,6 +1,6 @@
-/* -------------------------------------------------------------------------- */
-/* -----| RESET.CSS (http://developer.yahoo.com/yui/3/cssreset/) |----------- */
-/* -------------------------------------------------------------------------- */
+/**
+ * RESET.CSS (http://developer.yahoo.com/yui/3/cssreset/)
+ */
 
 html {
     color: #333;
@@ -73,9 +73,9 @@ legend {
     color: #000;
 }
 
-/* -------------------------------------------------------------------------- */
-/* -----| BASE.CSS (http://developer.yahoo.com/yui/3/cssbase/) |------------- */
-/* -------------------------------------------------------------------------- */
+/**
+ * BASE.CSS (http://developer.yahoo.com/yui/3/cssbase/)
+ */
 
 h1 {
     /*18px via YUI Fonts CSS foundation*/
@@ -146,9 +146,9 @@ p,fieldset,table {
     margin-bottom: 1em;
 }
 
-/* -------------------------------------------------------------------------- */
-/* -----| MISCELLANEOUS |---------------------------------------------------- */
-/* -------------------------------------------------------------------------- */
+/**
+ * MISCELLANEOUS
+ */
 
 .hidden {
     display: none;
@@ -164,7 +164,7 @@ p,fieldset,table {
     width: auto;
 }
 
-/* ---NESTED LISTS FIX --- */
+/* --- NESTED LISTS FIX --- */
 
 ul ol li {
     list-style: decimal outside;    
